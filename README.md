@@ -27,15 +27,15 @@ Installation
 2) in your manifest include the script(rmember this plugin works with jquery or call it as usual script in your html)
 ```` ruby
   *= require jquery
-  *= act_as_disabled
+  *= require act_as_disabled
 
 ````
 
 3) in the layout you can call a trigger.(this example is with haml)
-
+```` haml
   :javascript
     $(function(){
       $('a[data-remote].[data-disable-with], a[data-act-as-disabled]').bindDisableOnRemote();
     });
-
+````
 4) Enjoy the new functionality
