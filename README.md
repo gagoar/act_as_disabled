@@ -24,14 +24,14 @@ Installation
 
 1) put the script in vendor/assets/javascript/ (in your rails project or any other place where you can use it)
 
-2) in your manifest include the script(rmember this plugin works with jquery or call it as usual script in your html)
+2) in your manifest include the script(remember: this plugin works with jquery ) or call it as usual script in your html page
 ```` ruby
   *= require jquery
   *= require act_as_disabled
 
 ````
 
-3) in the layout you can call a trigger.(this example is with haml)
+3) in the layout you can call a trigger (this example is with haml)
 ```` haml
   :javascript
     $(function(){
