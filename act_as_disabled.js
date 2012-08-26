@@ -5,13 +5,11 @@ jQuery(function ($) {
           value = $el.data('disable'),
           altContent = altContentAlt || $el.attr('data-disable-with');
       if( value === false ) {
-        console.log('not');
         $el.off('.disableWithRemote');
         $el.removeAttr('disabled');
         altContent !== '' ? $el.html($el.data('content')) : null ;
         $el.data('disable', true);
       }else{
-        console.log('disable');
         $el.on('click.disableWithRemote',function(event){ event.preventDefault(); event.stopPropagation();});
         $el.attr('disabled',true);
         $el.data('disable',false);
