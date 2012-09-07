@@ -19,7 +19,7 @@ jQuery(function ($) {
    bindDisableOnRemote: function(target,event){
     var $el = $(this);
     $el.on('ajax:beforeSend.bindDisableRemote', function(event){$(this).disableOnRemote()});
-    $el.on('ajax:complete.bindDisableRemote', function(){$(this).disableOnRemote()});
+    $el.on('ajax:complete.bindDisableRemote', function(event){$(this).disableOnRemote()});
      }
   });
 });
