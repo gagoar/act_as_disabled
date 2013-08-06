@@ -35,7 +35,7 @@ Installation
 ```` haml
   :javascript
     $(function(){
-      $('a[data-remote].[data-disable-with], a[data-act-as-disabled]').bindDisableOnRemote();
+      $('a[data-remote][data-disable-with], a[data-act-as-disabled]').bindDisableOnRemote();
     });
 ````
 4) Enjoy the new functionality
