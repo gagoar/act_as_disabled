@@ -1,6 +1,20 @@
-<%= link_to 'A link without act_as_disabled', some_comments_path, class: 'btn btn-outline btn-lg', remote: true, data: {target: true} %>
+<header>
+<h1>Act as disabled - DEMO</h1>
+<h4>Open your javascript web inspector and look each button working.</h4>
 
-<%= link_to 'A link with act_as_disabled', some_comments_path, class: 'btn btn-outline btn-lg', remote: true, data: {act_as_disabled: true, target: true} %>
-<%= link_to 'A link with act_as_disabled & txt', some_comments_path, class: 'btn btn-outline btn-lg', remote: true, data: {act_as_disabled: true, target: true, disable_with: 'processing'} %>
-
-<br/>
+</header>
+<section id="wo_aad">
+<%= link_to 'A link without act_as_disabled', some_comments_path(anchor: 'without'), class: 'btn btn-large', remote: true, data: {target: true} %>
+</section>
+<section id="w_aad">
+<%= link_to 'A link with act_as_disabled', some_comments_path(anchor: 'with'), class: 'btn btn-large', remote: true, data: {act_as_disabled: true, target: true} %>
+</section>
+<section id="w_aad_and_txt">
+<%= link_to 'A link with act_as_disabled & txt', some_comments_path(anchor: 'with_and_txt'), class: 'btn btn-large', remote: true, data: {act_as_disabled: true, target: true, disable_with: 'processing'} %>
+</section>
+<footer>
+<p class="pull-right">
+  <a href="https://github.com/gagoar/act_as_disabled">Act as disabled on github</a>
+</p>
+<p>Heads up! Each request has a server delay to show the trick.</p>
+</footer>

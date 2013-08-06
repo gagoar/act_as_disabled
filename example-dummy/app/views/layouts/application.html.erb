@@ -6,12 +6,8 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
-<body style= 'text-align: center;margin:0 auto;'>
-  <div class='span6'></div>
-  <div class='span4'>
+<body>
   <%= yield %>
-   </div>
-  <div class='span6'></div>
   <script>
     $(function(){
       $('a[data-remote][data-disable-with], a[data-act-as-disabled]').bindDisableOnRemote();

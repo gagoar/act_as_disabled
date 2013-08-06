@@ -1,0 +1,59 @@
+/* https://github.com/flaviaza */
+
+.btn-large{
+  padding: 28px 36px;
+  font-size: 24.5px;
+  width: 400px;
+  line-height: 28px;
+}
+section{
+  text-align: center;
+  vertical-align: middle;
+  padding: 60px 0;
+  display: block;
+}
+body{
+  background-color: #383838;
+  color: #fff;
+}
+header{
+  padding: 20px 0;
+  text-align: center;
+}
+footer{
+  padding: 20px;
+}
+footer a{
+  color: #ff9400;
+}
+footer a:hover{
+  color: #ffc473;
+}
+#wo_aad{
+  background-color: #ffc473;
+}
+#w_aad{
+  background-color: #ffae40;
+}
+#w_aad_and_txt{
+  background-color: #ff9400;
+}
+.btn{
+  background: transparent none;
+  background-color: rgba(255,255,255,0.8);
+  border: 2px solid #ff9400;
+  color: #ff9400;
+  font-weight: bold;
+  text-shadow: 0 0 0 transparent;
+}
+.btn:hover{
+  background-color: #fff;
+  color: #ff9400;
+}
+section .btn[disabled]{
+  color: #ff9400;
+}
+#w_aad_and_txt .btn{
+  border-color: #ffae40;
+  color: #ff9400;
+}
