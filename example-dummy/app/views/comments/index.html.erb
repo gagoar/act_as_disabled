@@ -1,0 +1,6 @@
+<%= link_to 'A link without act_as_disabled', some_comments_path, class: 'btn btn-outline btn-lg', remote: true, data: {target: true} %>
+
+<%= link_to 'A link with act_as_disabled', some_comments_path, class: 'btn btn-outline btn-lg', remote: true, data: {act_as_disabled: true, target: true} %>
+<%= link_to 'A link with act_as_disabled & txt', some_comments_path, class: 'btn btn-outline btn-lg', remote: true, data: {act_as_disabled: true, target: true, disable_with: 'processing'} %>
+
+<br/>
