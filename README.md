@@ -22,6 +22,21 @@ you can make a link with message (could be html not only an string) disabled whe
 
 ````
 
+Example
+=======
+ If you want to try it out
+
+```` bash
+ git clone https://github.com/gagoar/act_as_disabled.git
+ cd act_as_disabled/example-dummy
+ bundle
+ bundle exec unicorn -p 3001
+````
+go to: http://localhost:3001
+
+to see under the hood,  keep your firebug/inspector open in the javascript debugger
+
+
 Installation
 ============
 
