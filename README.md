@@ -1,3 +1,8 @@
+DEPRECATED.
+==========
+This functionality it's fixed in jquery_ujs now, so we don't need this fix any more
+
+
 act_as_disabled
 ===============
 
