@@ -24,7 +24,9 @@ you can make a link with message (could be html not only an string) disabled whe
 
 Example
 =======
- If you want to try it out
+ If you want to play with it online: [DEMO](http://act-as-disabled.herokuapp.com/)
+
+ If you prefer play with the code:
 
 ```` bash
  git clone https://github.com/gagoar/act_as_disabled.git
